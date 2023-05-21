@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.firstsec {
+
+    background-color: rgb(65, 205, 126);
+}
+
+.headcontainer {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.headcontainer h1 {
+    flex: 1;
+    font-size: 3rem;
+    padding-left: 3.5rem;
+    color: rgb(52, 48, 48);
+    padding-bottom: 6rem;
+}
+
+.navbar {
+    flex: 1;
+    padding: 5px;
+}
+
+.navbar nav a {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 2rem;
+    color: black;
+
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    padding-right: 5rem;
+}
+
+.navbar button {
+    font-weight: bold;
+    padding: 0.7rem 3rem;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: rgb(80, 218, 140);
+}
+
+@media only screen and (max-width:600px) {
+    .firstsec {
+        flex-direction: column;
+        /* height: auto; */
+        /* text-align: center; */
+    }
+}
+
+.secondhead p,
+h5 {
+    font-size: 2rem;
+    padding: 1.5rem 4rem;
+    flex: 1;
+}
+
+.firstcont p {
+
+    padding-bottom: 2rem;
+}
+
+.secondhead {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.secondhead .secondcont p {
+    padding-left: 15rem;
+    font-size: 1.2rem;
+    flex: 1;
+}
+
+@media only screen and (max-width:600px) {
+    .firstsub {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+}
+
+/* second section  */
+
+.secondsec {
+    text-align: center;
+    padding: 6rem;
+}
+
+.secondsec h6 {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.secondsec p {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.feature {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4rem;
+}
+
+.com {
+    text-align: center;
+    padding: 4rem;
+
+
+}
+
+.com h1 {
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.com p {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width:600px) {
+    .feature {
+        flex-direction: column;
+    }
+}
+
+
+/* third section  */
+
+.thirdsec {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0a2640;
+    padding: 6rem;
+}
+
+.thirdcont {
+    color: white;
+    padding-left: 10rem;
+
+}
+
+.thirdcont p,
+.thirdcont h6 {
+    padding: 1rem;
+}
+
+.thirdcont h6 {
+
+    font-size: 3.5rem;
+}
+
+.thirdcont p {
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width:600px) {
+    .thirdsec {
+        flex-direction: column;
+        /* height: auto; */
+        padding: auto;
+    }
+}
+
+/* four section  */
+.foursec {
+    background-color: white;
+    padding: 6rem;
+}
+
+.fourcont {
+    padding-left: 16rem;
+    padding-bottom: 5rem;
+
+}
+
+.fourcont p,
+.fourcont .pone {
+    padding: 1rem;
+}
+
+.fourcont .pone {
+    color: black;
+    font-size: 3.5rem;
+}
+
+.fourcont p {
+    color: rgb(98, 96, 96);
+    font-size: 1.5rem;
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8rem;
+    padding-bottom: 6rem;
+}
+
+.pic img {
+    height: 16rem;
+    width: 100%;
+    padding: 1rem 1rem;
+    border-radius: 3rem;
+}
+
+.pic h4,
+.pic p {
+    padding-left: 1rem;
+    padding-bottom: 0.3rem;
+    padding-top: 1rem;
+}
+
+.pic h4 {
+    font-size: 2rem;
+
+}
+
+.pic p {
+    font-size: 1.5rem;
+    color: rgb(98, 96, 96);
+    
+
+}
+.subgallerybox{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 8rem;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:1rem 3rem;
+}
+.subgallerybox img{
+    flex: 1;
+    height: 10rem;
+    width: 80%;
+    padding: 1rem 1rem;
+    border-radius: 3rem;
+}
+.photo h4 {
+    font-size: 2rem;
+
+}
+
+.photo p {
+    font-size: 1.5rem;
+    color: rgb(98, 96, 96);
+    
+
+}
+@media only screen and (max-width:600px){
+    .subgallerybox,.photo{
+        flex-direction: column;
+    }
+}
+
+/* section five  */
+.five{
+    background-color: #0a2640;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+}
+.fivecontainer p,.fivecontainer h6{
+    padding: 1rem;
+}
+.fivecontainer p{
+    font-size: 1.5rem;
+}
+.fivecontainer h6{
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+.content{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+.content h4{
+    padding-right: 15rem;
+    font-size: 2.5rem;
+}
+
+.content p{
+    font-size: 1.5rem;
+    
+}
+
+/* section six  */
+ .six{
+    padding: 6rem;
+
+ }
+ .sixcont{
+    background-color: #0a2640;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+.sixcont h5{
+     font-size: 3rem;
+
+ }
+ .emailbox{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+ }
+ .buttonbox{
+    padding-left: 2px;
+ }
+ .sixcont input[type="email"]{
+    padding: 1rem;
+    border-radius: 20px;
+    width: 18rem;
+ }
+ .sixcont button{
+    padding: 1rem;
+    border-radius: 20px;
+    background-color: rgb(123, 221, 165);
+    color: black;
+ }
+/* seven section  */
+ /* footer  */
+
+ .footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+ }
+ .foot{
+    padding-left: 10rem;
+ }
+
+ .foot a{
+    padding: 1rem;
+    display: block;
+ }
